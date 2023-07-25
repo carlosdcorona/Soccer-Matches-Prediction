@@ -1,35 +1,35 @@
-## Predicción de Resultados de Partidos de Fútbol
-Este proyecto tiene como objetivo predecir los resultados de los partidos de fútbol utilizando técnicas de machine learning. Se analizaron más de 100,000 datos correspondientes a partidos de temporada regular de 52 ligas de fútbol en todo el mundo a lo largo de 20 temporadas.
+## Football Match Results Prediction
+This project aims to predict the results of soccer matches using machine learning techniques. More than 100,000 data corresponding to regular season matches from 52 soccer leagues around the world over 20 seasons were analyzed.
 
-## Proceso del Proyecto
-El proyecto se dividió en las siguientes etapas:
+## Project Process
+The project was divided into the following stages:
 
-- Limpieza de Datos: Se realizó una limpieza exhaustiva de los datos para eliminar registros incorrectos, duplicados o faltantes. Además, se llevaron a cabo transformaciones necesarias para preparar los datos para su análisis posterior.
+- Data Cleaning: An exhaustive cleaning of the data was carried out to eliminate incorrect, duplicate or missing records. In addition, necessary transformations were carried out to prepare the data for further analysis.
 
-- Análisis Exploratorio de Datos: Se realizó un análisis exploratorio de los datos para obtener información sobre las características y distribuciones de las variables. Esto incluyó visualizaciones y estadísticas descriptivas para comprender mejor los datos.
+- Exploratory Data Analysis: An exploratory data analysis was performed to obtain information on the characteristics and distributions of the variables. This included visualizations and descriptive statistics to better understand the data.
 
-- Creación de Nuevas Variables: Se crearon nuevas variables basadas en los datos disponibles. Por ejemplo, se calcularon indicadores de desempeño histórico para cada equipo, como promedio de goles anotados, promedio de goles encajados, entre otros.
+- Creation of New Variables: New variables were created based on the available data. For example, historical performance indicators were calculated for each team, such as average goals scored, average goals conceded, among others.
 
-- Cálculo de un Ranking para Cada Equipo: Se implementó un algoritmo para calcular un ranking para cada equipo basado en su desempeño histórico. Esto permitió tener una medida objetiva del rendimiento de cada equipo en función de sus resultados anteriores.
+- Calculation of a Ranking for Each Team: An algorithm was implemented to calculate a ranking for each team based on their historical performance. This allowed us to have an objective measure of the performance of each team based on their previous results.
 
-- Modelado de Machine Learning: Se utilizaron técnicas de machine learning para predecir los resultados de los partidos. Se probaron diferentes algoritmos, como regresión logística, redes neuronales convolucionales recurrentes (CNN-LSTM) y modelos de clasificación basados en árboles de decisión.
+- Machine Learning Modeling: Machine learning techniques were used to predict the results of the matches. Different algorithms were tested, such as logistic regression, recurrent convolutional neural networks (CNN-LSTM) and classification models based on decision trees.
 
-- Evaluación del Modelo: Se evaluaron los modelos utilizando métricas como precisión, recall y exactitud. Además, se creó una matriz de confusión para visualizar los resultados de las predicciones.
+- Model Evaluation: The models were evaluated using metrics such as precision, recall and accuracy. In addition, a confusion matrix was created to visualize the results of the predictions.
 
-- Mejora del Modelo: Se realizaron ajustes en los modelos y se exploraron diferentes técnicas para mejorar el rendimiento. Por ejemplo, se modificaron los hiperparámetros, se probó la inclusión de más variables o se utilizó un conjunto de datos de entrenamiento más grande.
+- Model Improvement: Model adjustments were made and different techniques to improve performance were explored. For example, the hyperparameters were modified, the inclusion of more variables was tested, or a larger training data set was used.
 
-## Resultados y Conclusiones
-A lo largo del proyecto, se logró desarrollar un modelo de predicción de resultados de partidos de fútbol con un nivel de precisión significativo. Si bien ningún modelo es perfecto, los resultados obtenidos demostraron la utilidad de las técnicas de machine learning en la predicción de resultados deportivos.
+## Results and conclusions
+Throughout the project, it was possible to develop a model for predicting the results of football matches with a significant level of precision. Although no model is perfect, the results obtained demonstrated the usefulness of machine learning techniques in predicting sports results.
 
-Este proyecto puede ser útil para aficionados al fútbol, casas de apuestas y otros interesados en predecir los resultados de los partidos. Sin embargo, es importante tener en cuenta que las predicciones están basadas en datos históricos y no tienen en cuenta factores impredecibles o variables en constante cambio.
+This project can be useful for soccer fans, bookmakers and others interested in predicting the results of matches. However, it is important to note that the predictions are based on historical data and do not take into account unpredictable factors or constantly changing variables.
 
-En general, este proyecto brinda una base sólida para futuras investigaciones y mejoras en la predicción de resultados de partidos de fútbol utilizando técnicas de machine learning.
+Overall, this project provides a solid foundation for further research and improvements in football match outcome prediction using machine learning techniques.
 
-## Requisitos del Proyecto
-Para ejecutar este proyecto, se requieren las siguientes bibliotecas de Python:
+## Project Requirements
+To run this project, the following Python libraries are required:
 
 - Pandas
-- Numpy
-- Scikit-learn
-- Seaborn
-- Matplotlib
+-Numpy
+-Scikit-learn
+-Seaborn
+-matplotlib
