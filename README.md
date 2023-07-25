@@ -28,8 +28,8 @@ Overall, this project provides a solid foundation for further research and impro
 ## Project Requirements
 To run this project, the following Python libraries are required:
 
-- Pandas
+-Pandas
 -Numpy
 -Scikit-learn
 -Seaborn
--matplotlib
+-Matplotlib
